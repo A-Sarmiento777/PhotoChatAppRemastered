@@ -1,0 +1,130 @@
+body{
+    background-color:rgb(8, 10, 10);
+    /* background-color:rgba(0, 0, 0, 0.808); */
+}
+
+.footer{
+    margin: 0;
+}
+.feed{
+    margin-bottom:10px ;
+}
+
+.post{
+    
+    /* margin-bottom: 0px 0px 0px 0px;  */
+    margin-bottom: 40px;
+}
+
+.post-header{
+    border-top: 1px solid rgba(255, 255, 255, 0.103) ;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    
+}
+.post-avatar{
+    margin-right: 10px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    /* background-color: black; */
+}
+
+.post-text-user{
+    /* font-weight: bold; */
+    font-size: 18px;
+    padding-left: 0px; 
+    padding-top: 5px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+     
+    cursor: pointer;
+
+  }
+
+.post-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.post-strong-text{
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 0px;
+    font-weight: bold;
+    padding-top: 5px; 
+  }
+.post-text{
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 12px; 
+     
+  }
+
+.post-tags{
+    margin-top: 3px;
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 12px; 
+    padding-top: 8px; 
+    margin-bottom: 2px;
+  }
+
+.post-likes {
+    padding-left: 10px; 
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+.post-icons{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 8px; 
+}
+
+.post-commentIcon {
+    padding-left: 2px; 
+    padding-right: 8px;
+    margin-top: 6px;
+
+}
+.post-thumpUp{
+    padding-left: 0px; 
+}
+
+.post-date{
+    font-weight: normal;
+    font-size: 10px;
+    padding-left: 12px; 
+    padding-top: 3px; 
+    margin-bottom: 20px;
+}
+
+.avatar-header {
+    display: flex; 
+    margin-top: 6px; 
+    position: absolute;
+    top: 4px; 
+    right: 15px; 
+    
+  }
+.ProfileButton a{
+    background-color: rgba(11, 224, 224, 0.25);
+    color: white;
+    text-decoration: none ;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    margin-left: 50px;
+    border: none;
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 1em;
+   
+}

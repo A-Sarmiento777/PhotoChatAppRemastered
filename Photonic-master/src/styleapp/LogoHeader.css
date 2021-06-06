@@ -1,0 +1,54 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+
+.header {
+    background: rgb(14, 73, 73);
+
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    flex-direction: row;
+    width: 100%;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #LogoChat{
+    font-size: 30px;
+    display: flex;
+    height: 65px;
+    display: flex;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+  /* .header-icons{
+    display: flex;
+    align-items:center;
+  } */
+  .search-icon{
+    display: flex;
+    display: inline;
+    width: 100%;
+   
+  }
+
+  .post-search{
+      margin-left: 15px;  
+  } 
+
+#userinput {
+  cursor: pointer;
+  width: 170px; ;
+}
+
+ 
+
+ 

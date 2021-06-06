@@ -1,0 +1,29 @@
+{
+  "name": "backend-to-go",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start": "concurrently \"npm:dev\" \"nodemon ./backend/index\""
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "concurrently": "^6.1.0",
+    "framer-motion": "^4.1.17",
+    "mongoosy": "^1.0.16",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-easier": "^1.0.24",
+    "react-router-dom": "^5.2.0",
+    "react-time-ago": "^6.2.2",
+    "react-webcam": "^5.2.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "nodemon": "^2.0.7",
+    "vite": "^2.3.3"
+  }
+}

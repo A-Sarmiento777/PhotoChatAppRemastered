@@ -1,0 +1,43 @@
+.post-header{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    
+}
+.post-avatar{
+    margin-right: 10px;
+}
+
+.post-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.post{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.post-text{
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 12px; 
+    padding-top: 5px; 
+  }
+
+  .post-likes {
+      padding-left: 12px; 
+  }
+
+.post-icons{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+
+.post-commentIcon {
+    padding-left: 10px; 
+}

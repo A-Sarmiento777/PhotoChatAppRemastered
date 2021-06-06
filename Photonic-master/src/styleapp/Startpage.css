@@ -1,0 +1,25 @@
+body{
+    margin-bottom:0;
+}
+.header_part{
+
+    background-color:rgba(11, 224, 224, 0.452);
+    height:50px;
+    width:100%;
+}
+.header_part img{
+    
+    margin-top:-15px;
+}
+.footer_part{
+    background-color:rgba(11, 224, 224, 0.452);
+    position: fixed;
+    height:50px;
+    position: fixed;
+    left:0%;
+    margin-bottom:0%;
+    viewport-fit: 60%;
+    width: 100%;
+    color:white;   
+
+}
